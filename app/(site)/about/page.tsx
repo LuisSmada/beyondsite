@@ -1,3 +1,5 @@
 export default function AboutPage() {
-    return <>About Page</>
+  return (
+    <div className="w-screen h-screen items-center bg-ui-bg">About Page</div>
+  );
 }

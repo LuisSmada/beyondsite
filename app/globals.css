@@ -3,8 +3,29 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #0C343D;
+  /* --foreground: #0C343D; */
+  --foreground: #ffffff;
 }
+
+@theme {
+  --color-brand-900: #0C343D;
+  --color-brand-700: #14505C;
+  --color-brand-500: #1E6B78;
+
+  --color-accent-500: #F9BF4B;
+  --color-accent-200: #FDE6B6;
+  --color-accent-100: #FFF2D6;
+
+  --color-ui-bg: #FAFAF8;
+  --color-ui-surface: #FFFFFF;
+  --color-ui-surface2: #F3F6F6;
+  --color-ui-border: #E5ECEC;
+  --color-ui-borderStrong: #C9D6D8;
+  --color-ui-text: #0C343D;
+  --color-ui-textMuted: #3E5E65;
+  --color-ui-textSubtle: #6B8287;
+}
+
 
 @theme inline {
   --color-background: var(--background);

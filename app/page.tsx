@@ -1,7 +1,8 @@
-"use client"
+"use client";
 
 import { HeroBanner } from "@/components/common/HeroBanner";
 import { Navbar } from "@/components/common/Navbar";
+import { ServiceSection } from "@/components/common/ServiceSection";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -69,10 +70,11 @@ import Link from "next/link";
 //   );
 // }
 
-
 export default function Home() {
-  return <>
-    <Navbar />
-    <HeroBanner />
-  </>
+  return (
+    <>
+      <HeroBanner />
+      <ServiceSection />
+    </>
+  );
 }
