@@ -1,10 +1,18 @@
 "use client";
 
+import { ExpertiseSection } from "@/components/common/ExpertiseSection";
 import { HeroBanner } from "@/components/common/HeroBanner";
 import { Navbar } from "@/components/common/Navbar";
 import { ServiceSection } from "@/components/common/ServiceSection";
+import { WhatYouWinSection } from "@/components/common/WhatYouWinSection";
+import {
+  setNavbarPosition,
+  setPageOverflow,
+} from "@/lib/features/application/applicationSlice";
+import { useAppDispatch } from "@/lib/hooks";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
 
 // export default function Home() {
 //   return (
@@ -71,10 +79,20 @@ import Link from "next/link";
 // }
 
 export default function Home() {
+  const dispatch = useAppDispatch();
+
+  useEffect(() => {
+    dispatch(setNavbarPosition("fixed"));
+    dispatch(setPageOverflow("auto"));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <>
       <HeroBanner />
       <ServiceSection />
+      <WhatYouWinSection />
+      <ExpertiseSection />
     </>
   );
 }

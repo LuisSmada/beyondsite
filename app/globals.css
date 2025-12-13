@@ -2,12 +2,19 @@
 
 
 :root {
-  --background: #ffffff;
+  --background: #FAFAF8;
   /* --foreground: #0C343D; */
-  --foreground: #ffffff;
+  --foreground: #0C343D;
 }
 
 @theme {
+
+  --color-primary: #0C343D;
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: #F9BF4B;
+  --color-secondary-foreground: #0C343D;
+
   --color-brand-900: #0C343D;
   --color-brand-700: #14505C;
   --color-brand-500: #1E6B78;
@@ -24,6 +31,12 @@
   --color-ui-text: #0C343D;
   --color-ui-textMuted: #3E5E65;
   --color-ui-textSubtle: #6B8287;
+
+
+  --color-ui-success:#1F7A4D;
+  --color-ui-warning:#B7791F;
+  --color-ui-danger:#C2413A;
+  --color-ui-info:#2563EB;
 }
 
 
