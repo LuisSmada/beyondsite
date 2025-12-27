@@ -1,0 +1,114 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+import Link from "next/link";
+
+export default function LegalNotices() {
+  const t = useTranslations("LegalNotices");
+
+  return (
+    <div className="min-h-svh w-full bg-ui-bg px-8 md:px-11 pt-25 text-brand-900 2xl:px-81">
+      <div className="text-3xl font-bold mb-8">{t("title")}</div>
+
+      {/* 1. Website Publisher */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("editor.title")}</div>
+        <div className="text-ui-textMuted pr-0 xl:pr-70">
+          <div className="flex flex-col gap-2">
+            <div className="font-bold">BEYOND</div>
+            <div>{t("editor.companyType")}</div>
+          </div>
+
+          <div className="mt-5 flex flex-col gap-2">
+            <div>{t("editor.shareCapital")}</div>
+            <div>{t("editor.headOffice")}</div>
+            <div>{t("editor.registration")}</div>
+            <div>
+              {t("editor.email")}{" "}
+              <span className="font-bold">
+                <Link href="mailto:ayoadams@outlook.fr">
+                  contact@groupebeyond.com
+                </Link>
+              </span>
+            </div>
+            <div>{t("editor.phone")}</div>
+          </div>
+        </div>
+      </div>
+
+      {/* 2. Publication Director */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("director.title")}</div>
+        <div className="text-ui-textMuted pr-0 xl:pr-70">
+          <div>{t("director.label")}</div>
+          <div className="mt-2 flex flex-col gap-2">
+            <div>{t("director.name")}</div>
+          </div>
+        </div>
+      </div>
+
+      {/* 3. Hosting */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("hosting.title")}</div>
+        <div className="text-ui-textMuted pr-0 xl:pr-70">
+          <div>{t("hosting.label")}</div>
+
+          <div className="mt-5 flex flex-col gap-2">
+            <div className="font-bold">Hostinger International Ltd</div>
+            <div>61 Lordou Vironos Street</div>
+            <div>6023 Larnaca</div>
+            <div>{t("hosting.country")}</div>
+            <div>
+              {t("hosting.website")}{" "}
+              <span className="font-bold">
+                <a
+                  href="https://www.hostinger.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  www.hostinger.com
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 4. Intellectual Property */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">
+          {t("intellectualProperty.title")}
+        </div>
+        <div className="text-ui-textMuted pr-0 xl:pr-70 space-y-2">
+          <div>{t("intellectualProperty.desc1")}</div>
+          <div>{t("intellectualProperty.desc2")}</div>
+        </div>
+      </div>
+
+      {/* 5. Liability */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("liability.title")}</div>
+        <div className="text-ui-textMuted pr-0 xl:pr-70">
+          {t("liability.desc")}
+        </div>
+      </div>
+
+      {/* 6. External Links */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("externalLinks.title")}</div>
+        <div className="text-ui-textMuted pr-0 xl:pr-70">
+          {t("externalLinks.desc")}
+        </div>
+      </div>
+
+      {/* 7. Governing Law */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("law.title")}</div>
+        <div className="text-ui-textMuted pr-0 xl:pr-70 space-y-1">
+          <div>{t("law.desc1")}</div>
+          <div>{t("law.desc2")}</div>
+        </div>
+      </div>
+    </div>
+  );
+}

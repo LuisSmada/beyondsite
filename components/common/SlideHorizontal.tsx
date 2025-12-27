@@ -28,7 +28,6 @@ export function SlideHorizontal({
         ease: "easeOut",
         delay,
       }}
-      className="w-full h-full"
     >
       {children}
     </motion.div>

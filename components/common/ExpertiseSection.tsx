@@ -1,73 +1,74 @@
 import { motion } from "motion/react";
 import { BadgeSection } from "./BadgeSection";
 import { SlideVertical } from "./SlideVertical";
-import { Sparkles, Layers, Gauge, Handshake } from "lucide-react";
+import {
+  Sparkles,
+  Layers,
+  Gauge,
+  Handshake,
+  MessageCircle,
+  Lightbulb,
+  Rocket,
+} from "lucide-react";
+import { HomeServiceItem } from "./HomeServiceItem";
+import { Fragment } from "react/jsx-runtime";
+import { SlideHorizontal } from "./SlideHorizontal";
+import { useTranslations } from "next-intl";
 
 export const WHY_US = [
   {
-    title: "Vision produit avant tout",
-    desc: "Nous concevons des solutions utiles, alignées sur vos objectifs business — pas juste du code.",
-    icon: Sparkles,
-  },
-  {
-    title: "Architecture propre & scalable",
-    desc: "Un socle technique solide, maintenable et prêt à évoluer sans dette inutile.",
+    title: "#ThoughtsTools",
+    description: "#ThoughtsToolsDesc",
     icon: Layers,
   },
   {
-    title: "Performance & expérience",
-    desc: "Des interfaces rapides, claires et élégantes, pensées pour l’utilisateur final.",
-    icon: Gauge,
+    title: "#HumanFollowing",
+    description: "#HumanFollowingDesc",
+    icon: MessageCircle,
   },
   {
-    title: "Partenaire, pas prestataire",
-    desc: "Nous travaillons avec vous sur le long terme, comme une extension de votre équipe.",
-    icon: Handshake,
+    title: "#ClearSolutions",
+    description: "#ClearSolutionsDesc",
+    icon: Lightbulb,
+  },
+  {
+    title: "#EasyScalable",
+    description: "#EasyScalableDesc",
+    icon: Rocket,
   },
 ] as const;
 
 export const ExpertiseSection = () => {
+  const t = useTranslations("HomePage");
+
   return (
-    <div className="w-screen h-screen bg-ui-bg flex flex-col pt-8 gap-3 items-center ">
-      <BadgeSection>Nos atouts</BadgeSection>
+    <div className="w-screen min-h-svh 2xl:min-h-auto bg-ui-bg flex flex-col py-20 gap-3 items-center ">
+      <BadgeSection>{t("#OurAssets")}</BadgeSection>
       <SlideVertical>
-        <div className="font-bold text-4xl mb-2">Pourquoi nous ?</div>
-      </SlideVertical>
-
-      <section className="bg-ui-bg py-24">
-        <div className="mx-auto max-w-6xl px-6">
-          <h2 className="text-4xl font-bold text-brand-900 mb-4">
-            Pourquoi BEYOND ?
-          </h2>
-          <p className="text-ui-textMuted mb-14 max-w-2xl">
-            Parce qu’un bon produit, ce n’est pas seulement du code qui
-            fonctionne.
-          </p>
-
-          <div className="grid gap-10 md:grid-cols-2">
-            {WHY_US.map((item) => {
-              const Icon = item.icon;
-
-              return (
-                <div key={item.title} className="flex gap-5">
-                  <div className="h-11 w-11 shrink-0 rounded-xl bg-accent-500/15 flex items-center justify-center">
-                    <Icon className="h-5 w-5 text-brand-900" />
-                  </div>
-
-                  <div>
-                    <div className="text-lg font-bold text-brand-900">
-                      {item.title}
-                    </div>
-                    <p className="mt-1 text-sm text-ui-textMuted">
-                      {item.desc}
-                    </p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+        <div className="font-bold text-2xl sm:text-3xl md:text-4xl mb-2">
+          {t("#WhyUs")}
         </div>
-      </section>
+        <div className="text-ui-textMuted">{t("#WhatMakeDifference")}</div>
+      </SlideVertical>
+      <div className="w-full flex items-center justify-center  mt-8 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-5">
+          {WHY_US.map((item, idx) => {
+            const Icon = item.icon;
+            const from = idx < 2 ? "left" : "right";
+
+            return (
+              <SlideHorizontal key={idx} from={from} delay={idx * 0.08}>
+                <HomeServiceItem
+                  title={item.title}
+                  description={item.description}
+                  icon={Icon}
+                  minHeight="100"
+                />
+              </SlideHorizontal>
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 };

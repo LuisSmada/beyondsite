@@ -1,0 +1,274 @@
+{
+    "AboutPage": {
+        "#Concrete": "Concrete",
+        "#ConcreteDesc": "Our mission is to transform ideas and internal processes into concrete, stable and intuitive digital solutions.",
+        "#HeroFirstDesc": "designs custom web applications to modernize internal processes and improve operational efficiency.",
+        "#HeroSecondDesc": "We help SMEs and startups gain efficiency through simple, personalized and scalable digital solutions.",
+        "#HeroTitle": "A simple, useful and sustainable approach",
+        "#Impact": "Impact",
+        "#ImpactDesc": "We aim to help companies save time, reduce errors and streamline their operations.",
+        "#LongTermVision": "A long-term vision",
+        "#OurMissionDesc": "What guides our decisions and the way we build.",
+        "#OurMissions": "Our missions",
+        "#OurVision": "Our vision",
+        "#OurVisionDesc": "Building sustainable, elegant and useful digital products designed to support the real growth of businesses.",
+        "#ProjectOnYourMind": "Got a project in mind?",
+        "#ProjectOnYourMindDesc": "Let’s talk and see how BEYOND can help you in a concrete way.",
+        "#Simple": "Simple",
+        "#SimpleDesc": "We believe companies don't always need complex tools, but tools adapted to their real needs.",
+        "#Commitment": "Commitment",
+        "#CommitmentDesc": "Supporting the client from idea to delivery.",
+        "#Efficiency": "Efficiency",
+        "#EfficiencyDesc": "Practical tools, without unnecessary complexity.",
+        "#OnFit": "Tailor-made",
+        "#OnFitDesc": "Every company is unique, and so are its tools.",
+        "#OurValues": "Our values",
+        "#Transparency": "Transparency",
+        "#TransparencyDesc": "Clear communication, without unnecessary jargon."
+    },
+    "ContactPage": {
+        "#Collaborate": "Let’s collaborate together !",
+        "#Company": "Company",
+        "#CompanyPlaceholder": "Company name",
+        "#ContactUs": "Contact us",
+        "#DontBeShy": "Don’t be shy",
+        "#Email": "Email",
+        "#FirstName": "First name",
+        "#IncorrectFields": "One or more fields are empty or incorrect.",
+        "#LastName": "Last name",
+        "#Message": "Message",
+        "#MessagePlaceholder": "Describe your need...",
+        "#MessageSent": "Message sent.",
+        "#PhoneNumber": "Phone number",
+        "#Send": "Send"
+    },
+    "Footer": {
+        "#Confidentiality": "Privacy policy",
+        "#Copyright": "Copyright © 2025 BEYOND All rights reserved.",
+        "#LegalMentions": "Legal notices",
+        "#AboutUs": "About us",
+        "#ContactUs": "Contact us",
+        "#OurServices": "Our services",
+        "#HourWeek": "Monday - Friday: 9:00 - 19:00"
+    },
+    "HomePage": {
+        "#AppDev": "Custom application development",
+        "#AppDevDesc": "Modern interfaces, robust APIs, business tools tailored to your internal needs.",
+        "#Benefits": "Benefits",
+        "#BeyondHasManyServices": "BEYOND offers you several services.",
+        "#BEYONDValue": "What BEYOND really brings you.",
+        "#ClearSolutions": "Clear solutions, no jargon",
+        "#ClearSolutionsDesc": "We explain every decision in simple terms so you understand what we do and why we do it.",
+        "#ClearVision": "Clear vision",
+        "#ClearVisionDesc": "Readable indicators to manage your activity in real time.",
+        "#Conception": "Design",
+        "#ConceptionDesc": "A clear and adapted solution.",
+        "#ContactUs": "Contact us",
+        "#DashboardReporting": "Dashboard & reporting",
+        "#DashboardReportingDesc": "Advanced data visualization, statistics, automated reports.",
+        "#Dev": "Development",
+        "#DevDesc": "Fast and clean delivery.",
+        "#Discussion": "Discussion",
+        "#DiscussionDesc": "Understanding your need.",
+        "#EasyScalable": "Fast to launch, easy to scale",
+        "#EasyScalableDesc": "We quickly deliver a first functional version, then evolve the tool according to your real needs.",
+        "#Follow": "Follow-up",
+        "#FollowDesc": "Improvements and evolution.",
+        "#FreelanceDesc": "Freelancers with specific needs.",
+        "#Freelances": "Freelancers",
+        "#HeroCTA": "Let's discuss your project",
+        "#HeroDescription": "We design custom business applications to automate your processes, reduce errors and save your teams valuable time.",
+        "#HeroMainTitle": "Internal tools designed to simplify your activity",
+        "#HeroMiniTitle": "BEYOND — Custom digital solutions",
+        "#HumanFollowing": "Human and direct support",
+        "#HumanFollowingDesc": "You speak directly with the person building your solution.",
+        "#LessErrors": "Fewer errors",
+        "#LessErrorsDesc": "Centralized and reliable data to reduce risks.",
+        "#Only4Steps": "4 simple and transparent steps, without unnecessary complexity.",
+        "#OurAssets": "Our strengths",
+        "#OurProcess": "Our process",
+        "#OurTargets": "Targets",
+        "#PME&ETI": "SMEs and mid-sized companies",
+        "#PME&ETIDesc": "SMEs and mid-sized companies looking to digitize their internal processes.",
+        "#ProjectOnYourMind": "Got a project in mind?",
+        "#ProjectOnYourMindDesc": "Let’s talk and see how BEYOND can help you in a concrete way.",
+        "#QuickAdoption": "Quick adoption",
+        "#QuickAdoptionDesc": "Intuitive tools, usable without complex training.",
+        "#ReadMore": "Read more",
+        "#ReDesignOptimisation": "Application redesign & optimization",
+        "#ReDesignOptimisationDesc": "Modernization, bug fixing, performance improvement, security.",
+        "#Services": "Services",
+        "#SmartAutomatisation": "Smart automation",
+        "#SmartAutomatisationDesc": "Repetitive tasks are automated for maximum efficiency.",
+        "#SmoothProcess": "Smooth processes",
+        "#SmoothProcessDesc": "Simple workflows that accelerate collaboration.",
+        "#Startups": "Startups",
+        "#StartupsDesc": "Startups in launch phase.",
+        "#StepWithNumber": "Step {number}",
+        "#Team": "Teams",
+        "#TeamDesc": "Operational teams without adapted tools.",
+        "#TechnicalHelpAdvise": "Technical support & advice",
+        "#TechnicalHelpAdviseDesc": "MVP definition, functional scoping, tech choices.",
+        "#ThoughtsTools": "Tools designed for your business",
+        "#ThoughtsToolsDesc": "We design applications that adapt to how you work. The goal: useful and simple tools.",
+        "#TimeEarned": "Time saved",
+        "#TimeEarnedDesc": "Optimized processes that free up time for what matters.",
+        "#WhatMakeDifference": "What sets us apart from others.",
+        "#WhatsTheProcess": "How does it work?",
+        "#WhatWePropose": "What we offer",
+        "#WhatYouWin": "What do you gain?",
+        "#WhoBEYONDIsFor": "Who is BEYOND for?",
+        "#WhoBEYONDIsForDesc": "From mid-size companies to teams.",
+        "#WhyUs": "Why us?"
+    },
+    "LegalNotices": {
+        "title": "Legal Notice",
+        "editor": {
+            "title": "1. Website Publisher",
+            "companyType": "Simplified Joint-Stock Company (SAS)",
+            "shareCapital": "Share capital: Not defined",
+            "headOffice": "Registered office: Not defined",
+            "registration": "Company registration: Not defined",
+            "email": "Email:",
+            "phone": "Phone: +33 6 95 67 24 69"
+        },
+        "director": {
+            "title": "2. Director of Publication",
+            "label": "The Director of Publication is:",
+            "name": "Luis Adams AYO (Founder)"
+        },
+        "hosting": {
+            "title": "3. Hosting",
+            "label": "The website is hosted by:",
+            "country": "Cyprus",
+            "website": "Website:"
+        },
+        "intellectualProperty": {
+            "title": "4. Intellectual Property",
+            "desc1": "All elements on the BEYOND website (texts, images, logos, graphics, structure, code) are protected by intellectual property laws.",
+            "desc2": "Any reproduction, representation, or use, in whole or in part, without prior written authorization is strictly prohibited."
+        },
+        "liability": {
+            "title": "5. Liability",
+            "desc": "BEYOND strives to provide accurate and up-to-date information. However, BEYOND cannot be held liable for errors, omissions, or temporary unavailability of the website."
+        },
+        "externalLinks": {
+            "title": "6. External Links",
+            "desc": "The website may contain links to external websites. BEYOND assumes no responsibility for the content of such third-party websites."
+        },
+        "law": {
+            "title": "7. Governing Law",
+            "desc1": "This website is governed by French law.",
+            "desc2": "In the event of a dispute, the French courts shall have exclusive jurisdiction."
+        }
+    },
+    "PrivacyPolicy": {
+        "title": "Privacy Policy",
+        "intro": {
+            "title": "1. Introduction",
+            "desc1": "This privacy policy aims to inform users of the BEYOND website about how their personal data is collected, used, and protected.",
+            "desc2": "BEYOND is committed to respecting the confidentiality of personal data and processing it in accordance with the General Data Protection Regulation (GDPR) and applicable French law."
+        },
+        "controller": {
+            "title": "2. Data Controller",
+            "label": "The data controller is:",
+            "companyType": "Simplified Joint-Stock Company (SAS)",
+            "headOffice": "Registered office: Not defined",
+            "email": "Email:"
+        },
+        "data": {
+            "title": "3. Collected Data",
+            "desc": "As part of the use of the website, BEYOND may collect the following data:",
+            "items": {
+                "name": "First and last name",
+                "email": "Email address",
+                "phone": "Phone number",
+                "company": "Company name",
+                "message": "Message sent via the contact form"
+            },
+            "note": "No sensitive data is collected."
+        },
+        "purpose": {
+            "title": "4. Purpose of Processing",
+            "desc": "Personal data is collected solely for the following purposes:",
+            "items": {
+                "contact": "Responding to requests sent via the contact form",
+                "project": "Communicating in the context of a project or collaboration",
+                "relationship": "Managing commercial relationships"
+            },
+            "note": "Data is never sold, rented, or transferred to third parties."
+        },
+        "retention": {
+            "title": "5. Data Retention Period",
+            "desc": "Personal data is retained for a maximum period of 3 years from the last contact, unless otherwise required by law."
+        },
+        "security": {
+            "title": "6. Data Security",
+            "desc": "BEYOND implements appropriate technical and organizational measures to ensure the security of personal data and prevent unauthorized access, loss, or disclosure."
+        },
+        "rights": {
+            "title": "7. User Rights",
+            "desc": "In accordance with the GDPR, you have the following rights:",
+            "items": {
+                "access": "Right of access",
+                "rectification": "Right to rectification",
+                "deletion": "Right to erasure",
+                "limitation": "Right to restriction of processing",
+                "opposition": "Right to object"
+            },
+            "contact": "To exercise these rights, you may contact BEYOND at the following address:"
+        },
+        "cookies": {
+            "title": "8. Cookies",
+            "desc1": "The BEYOND website may use cookies strictly necessary for its proper functioning or for audience measurement purposes.",
+            "desc2": "You can configure your browser to refuse cookies."
+        },
+        "updates": {
+            "title": "9. Policy Updates",
+            "desc": "BEYOND reserves the right to modify this privacy policy at any time to remain compliant with legal or regulatory changes."
+        }
+    },
+    "ServicePage": {
+        "#AppWorkBased": "Business application development",
+        "#AppWorkBasedDesc": "Custom internal tools tailored to the way you work.",
+        "#AppWorkBasedSpots": "100% custom-built applications for your business,Fast and intuitive interfaces for your teams,A solid and reliable technical foundation,MVPs to quickly test your ideas",
+        "#AutoAndOpt": "Automation & optimization",
+        "#AutoAndOptDesc": "Fewer manual tasks, more efficiency every day.",
+        "#AutoAndOptSpots": "Automation of repetitive tasks,Smoother internal workflows,Reduction of operational errors,Faster and clearer processes",
+        "#BuildYourToolTogether": "Let’s build your next tool together",
+        "#BuildYourToolTogetherDesc": "Let’s talk about your project.",
+        "#Clarity": "Clarity",
+        "#ClarityDesc": "You gain a clear view of your business.",
+        "#Efficiency": "Efficiency",
+        "#EfficiencyDesc": "Your teams work more efficiently.",
+        "#Fiability": "Reliability",
+        "#FiabilityDesc": "You reduce operational errors.",
+        "#Flexibility": "Flexibility",
+        "#FlexibilityDesc": "Flexible and scalable solutions.",
+        "#ModernisationTools": "Tool modernization & redesign",
+        "#ModernisationToolsDesc": "Evolve your existing tools without starting from scratch",
+        "#ModernisationToolsSpots": "Modernized and simpler interfaces,Fixing technical issues,Performance improvements,Enhanced security and reliability",
+        "#OurCommitments": "Our commitments",
+        "#Proximity": "Proximity",
+        "#ProximityDesc": "Human and direct support.",
+        "#Quickness": "Speed",
+        "#QuicknessDesc": "Fast delivery of functional versions.",
+        "#ServiceHeroDesc": "BEYOND helps you digitalize your internal processes through custom, simple, useful, and scalable solutions.",
+        "#ServiceHeroTitle": "Services designed to modernize and streamline your business",
+        "#Smoothness": "Fluidity",
+        "#SmoothnessDesc": "Simpler and smoother operations.",
+        "#TechAdvices": "Technical consulting & support",
+        "#TechAdvicesDesc": "A technical partner to guide you and secure your decisions.",
+        "#TechAdvicesSpots": "Clear definition of your needs,Technology choices adapted to your context,Reliable and scalable architecture,Support for founders and teams",
+        "#Transparency": "Transparency",
+        "#TransparencyDesc": "Full transparency, without unnecessary jargon.",
+        "#WhyIsImportant": "Why is it important?",
+        "#WhyIsImportantDesc": "Because companies lose time using tools that no longer match their reality.",
+        "#WithBeyond": "With BEYOND:"
+    },
+    "Navbar": {
+        "#AboutUs": "About us",
+        "#ContactUs": "Contact us",
+        "#OurServices": "Our services"
+    }
+}

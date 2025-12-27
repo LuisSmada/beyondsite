@@ -51,23 +51,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        brand: {
-          900: "#0C343D",
-        },
-        accent: {
-          500: "#F9BF4B",
-        },
-        ui: {
-          bg: "#FAFAF8",
-          surface: "#FFFFFF",
-          surface2: "#F3F6F6",
-          border: "#E5ECEC",
-          borderStrong: "#C9D6D8",
-        },
-      },
-    },
+    extend: {},
   },
   variants: {
     extend: {},

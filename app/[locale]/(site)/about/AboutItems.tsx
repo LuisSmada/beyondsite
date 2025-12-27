@@ -3,25 +3,6 @@ interface IAboutItem {
   description: string;
 }
 
-export const AboutItemss = (props: IAboutItem) => {
-  return (
-    <>
-      <div
-        className="
-          h-[300px] w-[250px] px-5 py-5 rounded-2xl
-          bg-ui-surface text-brand-900 shadow-xl
-           border border-accent-500/50
-        "
-      >
-        <div className="  flex h-[calc(100%-40px)] flex-col justify-end items-start w-full">
-          <div className="font-bold text-xl mb-2">{props.title}</div>
-          <div className="text-[14px] mb-3">{props.description}</div>
-        </div>
-      </div>
-    </>
-  );
-};
-
 export const AboutItems = ({ title, description }: IAboutItem) => {
   return (
     <div

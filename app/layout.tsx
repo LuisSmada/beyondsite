@@ -1,25 +1,6 @@
-import type { Metadata } from "next";
-import {
-  Averia_Libre,
-  Geist,
-  Geist_Mono,
-  Plus_Jakarta_Sans,
-  Montserrat,
-  Manrope,
-  Inter,
-  Lato,
-} from "next/font/google";
 import "./globals.css";
-import { Navbar } from "@/components/common/Navbar";
-import StoreProvider from "./StoreProvider";
-import { useAppSelector } from "@/lib/hooks";
-import { pageOverflowSelector } from "@/lib/features/application/applicationSelector";
-import { InnerLayout } from "./InnerLayout";
-import { Toaster } from "@/components/ui/Sonnet";
-import PageTransition from "./(site)/PageTransition";
-import { CursorRing } from "@/components/common/CursorRing";
-import { CursorRingWp } from "@/components/common/CursorRingWp";
-import { Footer } from "@/components/common/Footer";
+import type { Metadata } from "next";
+import { Plus_Jakarta_Sans } from "next/font/google";
 
 const jakarta = Plus_Jakarta_Sans({
   // weight: "400",
@@ -43,23 +24,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en">
-      <body className={jakarta.className}>
-        <StoreProvider>
-          <Toaster richColors position="top-right" duration={1500} />
-          <CursorRing />
-
-          <div className="min-h-dvh flex flex-col select-none bg-ui-bg">
-            <Navbar />
-            <main className="flex-1 mb-10">{children}</main>
-            <Footer />
-          </div>
-        </StoreProvider>
-      </body>
+    <html lang="fr">
+      <body className={jakarta.className}>{children}</body>
     </html>
   );
 }

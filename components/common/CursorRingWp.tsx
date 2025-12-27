@@ -17,7 +17,9 @@ export function CursorRingWp() {
     if (isTouch) return;
 
     const isInteractive = (el: Element | null) => {
-      if (!el) return false;
+      if (!el) {
+        return false;
+      }
       return !!el.closest(
         'a, button, input, textarea, select, [role="button"], [data-cursor="hover"]'
       );

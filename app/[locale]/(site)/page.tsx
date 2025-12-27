@@ -1,8 +1,14 @@
 "use client";
 
+import { CiblesSection } from "@/components/common/CiblesSection";
 import { ExpertiseSection } from "@/components/common/ExpertiseSection";
 import { HeroBanner } from "@/components/common/HeroBanner";
+import { HomeContactCTASection } from "@/components/common/HomeContactCTASection";
 import { Navbar } from "@/components/common/Navbar";
+import {
+  ProcesSection,
+  ProcessSection,
+} from "@/components/common/ProcessSection";
 import { ServiceSection } from "@/components/common/ServiceSection";
 import { WhatYouWinSection } from "@/components/common/WhatYouWinSection";
 import {
@@ -10,6 +16,7 @@ import {
   setPageOverflow,
 } from "@/lib/features/application/applicationSlice";
 import { useAppDispatch } from "@/lib/hooks";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
@@ -81,6 +88,8 @@ import { useEffect } from "react";
 export default function Home() {
   const dispatch = useAppDispatch();
 
+  const t = useTranslations("HomePage");
+
   useEffect(() => {
     dispatch(setNavbarPosition("fixed"));
     dispatch(setPageOverflow("auto"));
@@ -88,11 +97,19 @@ export default function Home() {
   }, []);
 
   return (
-    <>
+    <div className="w-full overflow-x-hidden">
       <HeroBanner />
       <ServiceSection />
       <WhatYouWinSection />
       <ExpertiseSection />
-    </>
+      <ProcessSection />
+      <CiblesSection />
+      <HomeContactCTASection
+        title={t("#ProjectOnYourMind")}
+        desc={t("#ProjectOnYourMindDesc")}
+      />
+    </div>
   );
 }
+
+// Coookies; SEO

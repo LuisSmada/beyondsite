@@ -17,7 +17,7 @@ export const BadgeSection = ({ children }: IBadgeSection) => {
         duration: 0.45,
         ease: "easeOut",
       }}
-      className="text-accent-500/70 text-[14px] font-bold  px-5 py-3 bg-accent-100  rounded-3xl"
+      className="text-accent-500 text-[14px] font-bold  px-5 py-3 bg-accent-100/70  rounded-3xl"
     >
       {children}
     </motion.div>

@@ -1,0 +1,118 @@
+import Link from "next/link";
+import { useTranslations } from "next-intl";
+
+export const PrivatePolicy = () => {
+  const t = useTranslations("PrivacyPolicy");
+
+  return (
+    <div className="min-h-svh w-full bg-ui-bg px-8 md:px-11 pt-25 text-brand-900 2xl:px-81">
+      <div className="text-3xl font-bold mb-8">{t("title")}</div>
+
+      {/* 1. Introduction */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("intro.title")}</div>
+        <div className="text-ui-textMuted pr-0  space-y-2">
+          <div>{t("intro.desc1")}</div>
+          <div>{t("intro.desc2")}</div>
+        </div>
+      </div>
+
+      {/* 2. Data Controller */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("controller.title")}</div>
+        <div className="text-ui-textMuted pr-70">
+          <div>{t("controller.label")}</div>
+          <div className="mt-2">
+            <div className="font-bold">BEYOND</div>
+            <div>{t("controller.companyType")}</div>
+            <div>{t("controller.headOffice")}</div>
+            <div>
+              {t("controller.email")}{" "}
+              <span className="font-bold">
+                <Link href="mailto:contact@groupebeyond.com">
+                  contact@groupebeyond.com
+                </Link>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 3. Collected Data */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("data.title")}</div>
+        <div className="text-ui-textMuted pr-70">
+          <div>{t("data.desc")}</div>
+          <ul className="list-disc pl-5 marker:text-accent-900 space-y-1 my-2">
+            <li>{t("data.items.name")}</li>
+            <li>{t("data.items.email")}</li>
+            <li>{t("data.items.phone")}</li>
+            <li>{t("data.items.company")}</li>
+            <li>{t("data.items.message")}</li>
+          </ul>
+          <div>{t("data.note")}</div>
+        </div>
+      </div>
+
+      {/* 4. Purpose */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("purpose.title")}</div>
+        <div className="text-ui-textMuted pr-70">
+          <div>{t("purpose.desc")}</div>
+          <ul className="list-disc pl-5 marker:text-accent-900 space-y-1 my-2">
+            <li>{t("purpose.items.contact")}</li>
+            <li>{t("purpose.items.project")}</li>
+            <li>{t("purpose.items.relationship")}</li>
+          </ul>
+          <div className="font-bold">{t("purpose.note")}</div>
+        </div>
+      </div>
+
+      {/* 5. Retention */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("retention.title")}</div>
+        <div className="text-ui-textMuted pr-70">{t("retention.desc")}</div>
+      </div>
+
+      {/* 6. Security */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("security.title")}</div>
+        <div className="text-ui-textMuted pr-70">{t("security.desc")}</div>
+      </div>
+
+      {/* 7. User Rights */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("rights.title")}</div>
+        <div className="text-ui-textMuted pr-70">
+          <div>{t("rights.desc")}</div>
+          <ul className="list-disc pl-5 marker:text-accent-900 space-y-1 my-2">
+            <li>{t("rights.items.access")}</li>
+            <li>{t("rights.items.rectification")}</li>
+            <li>{t("rights.items.deletion")}</li>
+            <li>{t("rights.items.limitation")}</li>
+            <li>{t("rights.items.opposition")}</li>
+          </ul>
+          <div>{t("rights.contact")}</div>
+          <div className="font-bold">
+            <Link href="mailto:contact@groupebeyond.com">
+              contact@groupebeyond.com
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* 8. Cookies */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("cookies.title")}</div>
+        <div className="text-ui-textMuted pr-70 mb-2">{t("cookies.desc1")}</div>
+        <div>{t("cookies.desc2")}</div>
+      </div>
+
+      {/* 9. Updates */}
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">{t("updates.title")}</div>
+        <div className="text-ui-textMuted pr-70">{t("updates.desc")}</div>
+      </div>
+    </div>
+  );
+};

@@ -1,4 +1,5 @@
 import { SlideVertical } from "@/components/common/SlideVertical";
+import { useTranslations } from "next-intl";
 
 export const HeroAbouta = () => {
   return (
@@ -22,22 +23,22 @@ export const HeroAbouta = () => {
 };
 
 export const HeroAbout = () => {
+  const t = useTranslations("AboutPage");
+
   return (
     <SlideVertical>
       <div className="text-center">
-        <h1 className="font-bold text-4xl md:text-5xl text-brand-900 mb-4">
-          Une approche simple, utile, et durable.
+        <h1 className="font-bold text-3xl sm:text-4xl lg:text-4xl text-brand-900 mb-4 sm:px-4 px-8">
+          {t("#HeroTitle")}
         </h1>
 
-        <p className="mx-auto max-w-3xl text-ui-textMuted text-base md:text-lg">
-          <span className="font-bold text-brand-900">BEYOND</span> conçoit des
-          applications web sur mesure pour moderniser les processus internes et
-          améliorer l’efficacité opérationnelle.
+        <p className="mx-auto max-w-3xl text-ui-textMuted text-base md:text-lg px-8">
+          <span className="font-bold text-brand-900">BEYOND</span>{" "}
+          {t("#HeroFirstDesc")}
         </p>
 
-        <p className="mx-auto mt-4 max-w-2xl font-bold text-brand-900">
-          Nous aidons les PME et startups à gagner en efficacité grâce à des
-          solutions digitales simples, personnalisées et évolutives.
+        <p className="mx-auto mt-4 max-w-2xl text-base md:text-lg font-bold text-brand-900 px-8">
+          {t("#HeroSecondDesc")}
         </p>
       </div>
     </SlideVertical>

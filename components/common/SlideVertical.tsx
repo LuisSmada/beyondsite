@@ -17,7 +17,7 @@ export const SlideVertical = ({ children }: ISlideVertical) => {
         duration: 0.45,
         ease: "easeOut",
       }}
-      className="flex flex-col items-center"
+      className="flex flex-col items-center text-brand-900"
     >
       {children}
     </motion.div>

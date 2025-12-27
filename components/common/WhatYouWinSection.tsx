@@ -8,59 +8,58 @@ import {
 } from "lucide-react";
 import { BadgeSection } from "./BadgeSection";
 import { SlideVertical } from "./SlideVertical";
+import { useTranslations } from "next-intl";
 
 const BENEFITS = [
   {
     icon: Clock,
-    title: "Gain de temps",
-    description:
-      "Des processus optimisés qui libèrent du temps pour l’essentiel.",
+    title: "#TimeEarned",
+    description: "#TimeEarnedDesc",
   },
   {
     icon: Settings,
-    title: "Automatisation intelligente",
-    description:
-      "Les tâches répétitives sont automatisées pour une efficacité maximale.",
+    title: "#SmartAutomatisation",
+    description: "#SmartAutomatisationDesc",
   },
   {
     icon: ShieldCheck,
-    title: "Moins d’erreurs",
-    description:
-      "Des données centralisées et fiables pour réduire les risques.",
+    title: "#LessErrors",
+    description: "#LessErrorsDesc",
   },
   {
     icon: BarChart3,
-    title: "Vision claire",
-    description:
-      "Des indicateurs lisibles pour piloter votre activité en temps réel.",
+    title: "#ClearVision",
+    description: "#ClearVisionDesc",
   },
   {
     icon: Repeat,
-    title: "Processus fluides",
-    description: "Des workflows simples qui accélèrent la collaboration.",
+    title: "#SmoothProcess",
+    description: "#SmoothProcessDesc",
   },
   {
     icon: Users,
-    title: "Adoption rapide",
-    description: "Des outils intuitifs, utilisables sans formation complexe.",
+    title: "#QuickAdoption",
+    description: "#QuickAdoptionDesc",
   },
 ];
 
 export const WhatYouWinSection = () => {
+  const t = useTranslations("HomePage");
+
   return (
-    <div className="w-screen min-h-dvh bg-ui-surface flex flex-col pt-8 gap-3 items-center">
-      <BadgeSection>Benefices</BadgeSection>
+    <div className="w-screen 2xl:min-h-auto  min-h-dvh bg-ui-surface flex flex-col py-20 gap-3 items-center px-8 md:px-11">
+      <BadgeSection>{t("#Benefits")}</BadgeSection>
 
       <SlideVertical>
-        <div className="font-bold text-4xl mb-2">
-          Qu est ce que vous gagnez ?
+        <div className="font-bold  text-2xl px-2 sm:px-0 text-center sm:text-3xl md:text-4xl mb-2 text-brand-900">
+          {t("#WhatYouWin")}
         </div>
-        <div className="text-ui-textMuted">
-          Ce que BEYOND apporte concrètement.
+        <div className="text-ui-textMuted text-base  text-center">
+          {t("#BEYONDValue")}
         </div>
       </SlideVertical>
 
-      <div className="relative mt-10 w-full max-w-6xl px-6">
+      <div className="relative mt-10 w-full max-w-6xl">
         {/* glow */}
         <div
           className="
@@ -75,7 +74,7 @@ export const WhatYouWinSection = () => {
         <div className="relative rounded-2xl bg-ui-surface overflow-hidden shadow-sm">
           <div
             className="
-              grid grid-cols-1 md:grid-cols-3
+              grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
               divide-y divide-ui-border
               md:divide-y-0 md:divide-x md:divide-ui-border
             "
@@ -89,7 +88,6 @@ export const WhatYouWinSection = () => {
                   className="
                         h-[180px] p-6
                         transition-colors duration-200
-                        hover:bg-ui-surface2
                         md:nth-[n+4]:border-t
                         md:nth-[n+4]:border-ui-border
                     "
@@ -103,10 +101,10 @@ export const WhatYouWinSection = () => {
                   </div>
 
                   <div className="text-lg font-bold text-brand-900">
-                    {b.title}
+                    {t(b.title)}
                   </div>
                   <p className="mt-2 text-sm text-ui-textMuted">
-                    {b.description}
+                    {t(b.description)}
                   </p>
                 </div>
               );

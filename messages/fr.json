@@ -1,0 +1,274 @@
+{
+    "AboutPage": {
+        "#Commitment": "Engagement",
+        "#CommitmentDesc": "Accompagner le client de l'idée à la livraison.",
+        "#Concrete": "Concret",
+        "#ConcreteDesc": "Notre mission est de transformer les idées et les processus internes en solutions digitales concrètes, stables et intuitives.",
+        "#Efficiency": "Efficacité",
+        "#EfficiencyDesc": "Des outils concrets, pas de complexité superflue.",
+        "#HeroFirstDesc": "conçoit des applications web sur mesure pour moderniser les processus internes et améliorer l’efficacité opérationnelle.",
+        "#HeroSecondDesc": "Nous aidons les PME et startups à gagner en efficacité grâce à des solutions digitales simples, personnalisées et évolutives.",
+        "#HeroTitle": "Une approche simple, utile et durable",
+        "#Impact": "Impact",
+        "#ImpactDesc": "Nous voulons permettre aux entreprises de gagner du temps, réduire les erreurs et fluidifier leurs opérations.",
+        "#LongTermVision": "Une vision long terme",
+        "#OnFit": "Sur mesure",
+        "#OnFitDesc": "Chaque entreprise est unique, ses outils aussi.",
+        "#OurMissionDesc": "Ce qui guide nos décisions et notre manière de construire.",
+        "#OurMissions": "Nos missions",
+        "#OurValues": "Nos valeurs",
+        "#OurVision": "Notre vision",
+        "#OurVisionDesc": "Construire des produits digitaux durables, élégants et utiles, pensés pour accompagner la croissance réelle des entreprises.",
+        "#ProjectOnYourMind": "Vous avez un projet en tête ?",
+        "#ProjectOnYourMindDesc": "Parlons-en et voyons comment BEYOND peut vous aider concrètement.",
+        "#Simple": "Simple",
+        "#SimpleDesc": "Nous pensons que les entreprises n’ont pas toujours besoin d’outils complexes, mais d’outils adaptés à leurs besoins réels.",
+        "#Transparency": "Transparence",
+        "#TransparencyDesc": "Communication simple, sans jargon inutile."
+    },
+    "ContactPage": {
+        "#Collaborate": "Collaborons ensemble !",
+        "#Company": "Entreprise",
+        "#CompanyPlaceholder": "Nom de l'entreprise",
+        "#ContactUs": "Contactez-nous",
+        "#DontBeShy": "Ne soyez pas timide",
+        "#Email": "Email",
+        "#FirstName": "Prénom",
+        "#IncorrectFields": "Un ou plusieurs champs sont vides ou incorrects.",
+        "#LastName": "Nom",
+        "#Message": "Message",
+        "#MessagePlaceholder": "Décrivez votre besoin...",
+        "#MessageSent": "Message envoyé.",
+        "#PhoneNumber": "Numéro de téléphone",
+        "#Send": "Envoyer"
+    },
+    "Footer": {
+        "#Confidentiality": "Politique de confidentialité",
+        "#Copyright": "Copyright © 2025 BEYOND All rights reserved.",
+        "#LegalMentions": "Mentions légales",
+        "#AboutUs": "Qui sommes-nous ?",
+        "#ContactUs": "Contactez-nous",
+        "#OurServices": "Nos services",
+        "#HourWeek": "Lundi - Vendredi: 9h00 - 19h00"
+    },
+    "HomePage": {
+        "#AppDev": "Développement d'applications sur-mesure",
+        "#AppDevDesc": "Interfaces modernes, API robustes, outils métiers adaptés à vos besoins internes.",
+        "#Benefits": "Bénéfices",
+        "#BeyondHasManyServices": "BEYOND vous propose plusieurs services.",
+        "#BEYONDValue": "Ce que BEYOND vous apporte concrètement.",
+        "#ClearSolutions": "Des solutions claires, sans jargon",
+        "#ClearSolutionsDesc": "Nous expliquons chaque choix de manière simple afin que vous compreniez ce que nous faisons et pourquoi nous le faisons.",
+        "#ClearVision": "Vision claire",
+        "#ClearVisionDesc": "Des indicateurs lisibles pour piloter votre activité en temps réel.",
+        "#Conception": "Conception",
+        "#ConceptionDesc": "Solution adaptée et claire.",
+        "#ContactUs": "Contactez-nous",
+        "#DashboardReporting": "Dashboard & reporting",
+        "#DashboardReportingDesc": "Visualisation avancée des données, statistiques, rapports automatisés.",
+        "#Dev": "Développement",
+        "#DevDesc": "Livraison rapide et propre.",
+        "#Discussion": "Échange",
+        "#DiscussionDesc": "Compréhension de votre besoin.",
+        "#EasyScalable": "Rapide à lancer, facile à faire évoluer",
+        "#EasyScalableDesc": "Nous livrons rapidement une première version fonctionnelle, puis faisons évoluer l’outil selon vos besoins réels.",
+        "#Follow": "Suivi",
+        "#FollowDesc": "Améliorations et évolution.",
+        "#FreelanceDesc": "Indépendants avec des besoins spécifiques.",
+        "#Freelances": "Indépendants",
+        "#HeroCTA": "Discutons de votre projet",
+        "#HeroDescription": "Nous concevons des applications métier sur mesure pour automatiser vos processus, réduire les erreurs et faire gagner du temps à vos équipes.",
+        "#HeroMainTitle": "Des outils internes conçus pour simplifier votre activité",
+        "#HeroMiniTitle": "BEYOND — Solutions digitales sur mesure",
+        "#HumanFollowing": "Un accompagnement humain et direct",
+        "#HumanFollowingDesc": "Vous échangez directement avec la personne qui conçoit votre solution.",
+        "#LessErrors": "Moins d'erreurs",
+        "#LessErrorsDesc": "Des données centralisées et fiables pour réduire les risques.",
+        "#Only4Steps": "4 étapes simples, transparentes, sans complexité inutile.",
+        "#OurAssets": "Nos atouts",
+        "#OurProcess": "Processus",
+        "#OurTargets": "Cibles",
+        "#PME&ETI": "PME et ETI",
+        "#PME&ETIDesc": "PME et ETI souhaitant digitaliser leurs processus internes.",
+        "#ProjectOnYourMind": "Vous avez un projet en tête ?",
+        "#ProjectOnYourMindDesc": "Parlons-en et voyons comment BEYOND peut vous aider concrètement.",
+        "#QuickAdoption": "Adoption rapide",
+        "#QuickAdoptionDesc": "Des outils intuitifs, utilisables sans formation complexe.",
+        "#ReadMore": "Lire plus",
+        "#ReDesignOptimisation": "Refonte & optimisation d'applications",
+        "#ReDesignOptimisationDesc": "Modernisation, correction, optimisation de performances, sécurité.",
+        "#Services": "Services",
+        "#SmartAutomatisation": "Automatisation intelligente",
+        "#SmartAutomatisationDesc": "Les tâches répétitives sont automatisées pour une efficacité maximale.",
+        "#SmoothProcess": "Processus fluides",
+        "#SmoothProcessDesc": "Des workflows simples qui accélèrent la collaboration.",
+        "#Startups": "Startups",
+        "#StartupsDesc": "Startups en phase de lancement.",
+        "#StepWithNumber": "Étape {number}",
+        "#Team": "Équipes",
+        "#TeamDesc": "Équipes opérationnelles sans outils adaptés.",
+        "#TechnicalHelpAdvise": "Accompagnement & conseil technique",
+        "#TechnicalHelpAdviseDesc": "Définition de MVP, cadrage fonctionnel, choix technologiques.",
+        "#ThoughtsTools": "Des outils pensés pour votre métier",
+        "#ThoughtsToolsDesc": "Nous concevons des applications qui s’adaptent à votre façon de travailler. L’objectif : des outils utiles et simples.",
+        "#TimeEarned": "Gain de temps",
+        "#TimeEarnedDesc": "Des processus optimisés qui libèrent du temps pour l’essentiel.",
+        "#WhatMakeDifference": "Ce qui nous différencie des autres.",
+        "#WhatsTheProcess": "Comment ça se passe ?",
+        "#WhatWePropose": "Qu'est-ce qu'on vous propose ?",
+        "#WhatYouWin": "Qu'est-ce que vous gagnez ?",
+        "#WhoBEYONDIsFor": "À qui BEYOND s'adresse ?",
+        "#WhoBEYONDIsForDesc": "Des ETI aux équipes.",
+        "#WhyUs": "Pourquoi nous ?"
+    },
+    "LegalNotices": {
+        "title": "Mentions légales",
+        "editor": {
+            "title": "1. Éditeur du site",
+            "companyType": "Société par Actions Simplifiée (SAS)",
+            "shareCapital": "Capital social : Non défini",
+            "headOffice": "Siège social : Non défini",
+            "registration": "Immatriculation : Non défini",
+            "email": "Email :",
+            "phone": "Téléphone : +33 6 95 67 24 69"
+        },
+        "director": {
+            "title": "2. Directeur de la publication",
+            "label": "Le directeur de la publication est :",
+            "name": "Luis Adams AYO (Fondateur)"
+        },
+        "hosting": {
+            "title": "3. Hébergement",
+            "label": "Le site est hébergé par :",
+            "country": "Chypre",
+            "website": "Site web :"
+        },
+        "intellectualProperty": {
+            "title": "4. Propriété intellectuelle",
+            "desc1": "L’ensemble des éléments présents sur le site BEYOND (textes, images, logos, graphismes, structure, code) est protégé par le droit de la propriété intellectuelle.",
+            "desc2": "Toute reproduction, représentation ou exploitation, totale ou partielle, sans autorisation écrite préalable est interdite."
+        },
+        "liability": {
+            "title": "5. Responsabilité",
+            "desc": "BEYOND s’efforce de fournir des informations exactes et à jour. Toutefois, BEYOND ne saurait être tenu responsable des erreurs, omissions ou d’une indisponibilité temporaire du site."
+        },
+        "externalLinks": {
+            "title": "6. Liens externes",
+            "desc": "Le site peut contenir des liens vers des sites externes. BEYOND décline toute responsabilité quant au contenu de ces sites tiers."
+        },
+        "law": {
+            "title": "7. Droit applicable",
+            "desc1": "Le présent site est soumis au droit français.",
+            "desc2": "En cas de litige, les tribunaux français seront seuls compétents."
+        }
+    },
+    "PrivacyPolicy": {
+        "title": "Politique de confidentialité",
+        "intro": {
+            "title": "1. Introduction",
+            "desc1": "La présente politique de confidentialité a pour objectif d’informer les utilisateurs du site BEYOND sur la manière dont leurs données personnelles sont collectées, utilisées et protégées.",
+            "desc2": "BEYOND s’engage à respecter la confidentialité des données personnelles et à les traiter conformément au Règlement Général sur la Protection des Données (RGPD) et à la législation française en vigueur."
+        },
+        "controller": {
+            "title": "2. Responsable du traitement",
+            "label": "Le responsable du traitement des données est :",
+            "companyType": "Société par Actions Simplifiée (SAS)",
+            "headOffice": "Siège social : Non défini",
+            "email": "Email :"
+        },
+        "data": {
+            "title": "3. Données collectées",
+            "desc": "Dans le cadre de l’utilisation du site, BEYOND est susceptible de collecter les données suivantes :",
+            "items": {
+                "name": "Nom et prénom",
+                "email": "Adresse email",
+                "phone": "Numéro de téléphone",
+                "company": "Nom de l’entreprise",
+                "message": "Message transmis via le formulaire de contact"
+            },
+            "note": "Aucune donnée sensible n’est collectée."
+        },
+        "purpose": {
+            "title": "4. Finalité du traitement",
+            "desc": "Les données personnelles sont collectées uniquement pour les finalités suivantes :",
+            "items": {
+                "contact": "Répondre aux demandes envoyées via le formulaire de contact",
+                "project": "Échanger dans le cadre d’un projet ou d’une collaboration",
+                "relationship": "Assurer le suivi des relations commerciales"
+            },
+            "note": "Les données ne sont en aucun cas vendues, louées ou cédées à des tiers."
+        },
+        "retention": {
+            "title": "5. Durée de conservation",
+            "desc": "Les données personnelles sont conservées pour une durée maximale de 3 ans à compter du dernier contact, sauf obligation légale contraire."
+        },
+        "security": {
+            "title": "6. Sécurité des données",
+            "desc": "BEYOND met en œuvre des mesures techniques et organisationnelles appropriées afin d’assurer la sécurité des données personnelles et de prévenir tout accès non autorisé, perte ou divulgation."
+        },
+        "rights": {
+            "title": "7. Droits des utilisateurs",
+            "desc": "Conformément au RGPD, vous disposez des droits suivants :",
+            "items": {
+                "access": "Droit d’accès",
+                "rectification": "Droit de rectification",
+                "deletion": "Droit à l’effacement",
+                "limitation": "Droit à la limitation du traitement",
+                "opposition": "Droit d’opposition"
+            },
+            "contact": "Pour exercer ces droits, vous pouvez contacter BEYOND à l’adresse suivante :"
+        },
+        "cookies": {
+            "title": "8. Cookies",
+            "desc1": "Le site BEYOND peut utiliser des cookies strictement nécessaires à son bon fonctionnement ou à des fins de mesure d’audience.",
+            "desc2": "Vous pouvez configurer votre navigateur pour refuser les cookies."
+        },
+        "updates": {
+            "title": "9. Modification de la politique",
+            "desc": "BEYOND se réserve le droit de modifier la présente politique de confidentialité à tout moment afin de rester conforme aux évolutions légales ou réglementaires."
+        }
+    },
+    "ServicePage": {
+        "#AppWorkBased": "Développement d’applications métier",
+        "#AppWorkBasedDesc": "Des outils internes sur mesure, adaptés à votre façon de travailler.",
+        "#AppWorkBasedSpots": "Applications 100% sur mesure pour votre activité,Interfaces rapides et intuitives pour vos équipes,Base technique solide et fiable,MVP pour tester rapidement vos idées",
+        "#AutoAndOpt": "Automatisation & optimisation",
+        "#AutoAndOptDesc": "Moins de tâches manuelles, plus d’efficacité au quotidien.",
+        "#AutoAndOptSpots": "Automatisation des tâches répétitives,Workflows internes plus fluides,Réduction des erreurs opérationnelles,Processus plus rapides et lisibles",
+        "#BuildYourToolTogether": "Construisons votre prochain outil ensemble",
+        "#BuildYourToolTogetherDesc": "Discutons de votre projet.",
+        "#Clarity": "Clarté",
+        "#ClarityDesc": "Vous gagnez une vision claire de votre activité.",
+        "#Efficiency": "Efficacité",
+        "#EfficiencyDesc": "Vos équipes travaillent plus efficacement.",
+        "#Fiability": "Fiabilité",
+        "#FiabilityDesc": "Vous réduisez les erreurs opérationnelles.",
+        "#Flexibility": "Flexibilité",
+        "#FlexibilityDesc": "Solutions flexibles et évolutives.",
+        "#ModernisationTools": "Modernisation & refonte d’outils",
+        "#ModernisationToolsDesc": "Faites évoluer vos outils existants sans repartir de zéro",
+        "#ModernisationToolsSpots": "Interfaces modernisées et plus simples,Correction des problèmes techniques,Amélioration des performances,Sécurité et fiabilité renforcées",
+        "#OurCommitments": "Nos engagements",
+        "#Proximity": "Proximité",
+        "#ProximityDesc": "Accompagnement humain et direct.",
+        "#Quickness": "Rapidité",
+        "#QuicknessDesc": "Livraison rapide de versions fonctionnelles.",
+        "#ServiceHeroDesc": "BEYOND vous aide à digitaliser vos processus internes grâce à des solutions sur mesure, simples, utiles et évolutives.",
+        "#ServiceHeroTitle": "Des services conçus pour moderniser et fluidifier votre activité",
+        "#Smoothness": "Fluidité",
+        "#SmoothnessDesc": "Des opérations plus simples et plus fluides.",
+        "#TechAdvices": "Conseil & accompagnement technique",
+        "#TechAdvicesDesc": "Un partenaire technique pour vous guider et sécuriser vos décisions.",
+        "#TechAdvicesSpots": "Cadrage clair de vos besoins,Choix technologiques adaptés à votre contexte,Architecture fiable et évolutive,Accompagnement des fondateurs et équipes",
+        "#Transparency": "Transparence",
+        "#TransparencyDesc": "Transparence totale, sans jargon inutile.",
+        "#WhyIsImportant": "Pourquoi c'est important ?",
+        "#WhyIsImportantDesc": "Parce que les entreprises perdent du temps avec des outils qui ne correspondent plus à leur réalité.",
+        "#WithBeyond": "Avec BEYOND :"
+    },
+    "Navbar": {
+        "#AboutUs": "Qui sommes-nous ?",
+        "#ContactUs": "Contactez-nous",
+        "#OurServices": "Nos services"
+    }
+}

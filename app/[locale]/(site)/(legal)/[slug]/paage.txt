@@ -1,0 +1,72 @@
+import { notFound } from "next/navigation";
+import { PrivatePolicy } from "./PrivatePolicy";
+import { PrivatePolicyEn } from "./PrivatePolicyEn";
+import { LegalNotices } from "./LegalNotices.tsx.old";
+import { LegalNoticesEn } from "./LegalNoticesEn";
+
+export const LEGAL_ROUTES = {
+  privacy: {
+    fr: "politique-de-confidentialite",
+    en: "privacy-policy",
+  },
+  notices: {
+    fr: "mentions-legales",
+    en: "legal-notices",
+  },
+} as const;
+
+const LEGAL = {
+  fr: {
+    privacy: "politique-de-confidentialite",
+    notices: "mentions-legales",
+  },
+  en: {
+    privacy: "privacy-policy",
+    notices: "legal-notices",
+  },
+} as const;
+
+type TLocale = keyof typeof LEGAL;
+
+export function generateStaticParams() {
+  return (Object.keys(LEGAL) as TLocale[]).flatMap((locale) => [
+    { locale, slug: LEGAL[locale].privacy },
+    { locale, slug: LEGAL[locale].notices },
+  ]);
+}
+
+function resolvePage(locale: TLocale, slug: string) {
+  const map = LEGAL[locale];
+
+  if (slug === map.privacy) {
+    return "privacy" as const;
+  }
+
+  if (slug === map.notices) {
+    return "notices" as const;
+  }
+
+  return null;
+}
+
+export default async function LegalPage({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}) {
+  const { locale, slug } = await params;
+
+  const typedLocale = locale as TLocale;
+  if (!LEGAL[typedLocale]) notFound();
+
+  const page = resolvePage(typedLocale, slug);
+  if (!page) notFound();
+
+  const isFr = locale === "fr";
+
+  if (page === "privacy") {
+    return isFr ? <PrivatePolicy /> : <PrivatePolicyEn />;
+  } else {
+    return isFr ? <LegalNotices /> : <LegalNoticesEn />;
+  }
+}

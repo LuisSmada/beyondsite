@@ -1,0 +1,142 @@
+import Link from "next/link";
+
+export const PrivatePolicyEn = () => {
+  return (
+    <div className="min-h-svh w-full bg-ui-bg px-8 md:px-11 pt-25 text-brand-900 2xl:px-81">
+      <div className="text-3xl font-bold mb-8">Privacy Policy</div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">1. Introduction</div>
+        <div className="text-ui-textMuted pr-70">
+          <div>
+            This privacy policy aims to inform users of the BEYOND website about
+            how their personal data is collected, used, and protected.
+          </div>
+          <div className="mt-2">
+            BEYOND is committed to respecting the confidentiality of personal
+            data and to processing it in accordance with the General Data
+            Protection Regulation (GDPR) and applicable French legislation.
+          </div>
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">2. Data Controller</div>
+        <div className="text-ui-textMuted pr-70">
+          The data controller is:
+          <div className="mt-2">
+            <span className="font-bold">BEYOND</span>
+            <div>Simplified Joint-Stock Company (SAS)</div>
+            <div>Registered office: Not defined</div>
+            <div>
+              Email:{" "}
+              <span className="font-bold">
+                <Link href="mailto:contact@groupebeyond.com">
+                  contact@groupebeyond.com
+                </Link>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">3. Data Collected</div>
+        <div className="text-ui-textMuted pr-70">
+          As part of using the website, BEYOND may collect the following data:
+          <div className="my-2">
+            <ul className="list-disc pl-5 marker:text-accent-900 space-y-1">
+              <li>First and last name</li>
+              <li>Email address</li>
+              <li>Phone number</li>
+              <li>Company name</li>
+              <li>Message sent via the contact form</li>
+            </ul>
+          </div>
+          <div>No sensitive data is collected.</div>
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">4. Purpose of Processing</div>
+        <div className="text-ui-textMuted pr-70">
+          Personal data is collected solely for the following purposes:
+          <div className="my-2">
+            <ul className="list-disc pl-5 marker:text-accent-900 space-y-1">
+              <li>Responding to requests sent via the contact form</li>
+              <li>
+                Communicating in the context of a project or collaboration
+              </li>
+              <li>Ensuring follow-up of business relationships</li>
+            </ul>
+          </div>
+          <div>
+            The data is{" "}
+            <span className="font-bold">
+              never sold, rented, or shared with third parties.
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">5. Data Retention Period</div>
+        <div className="text-ui-textMuted pr-70">
+          Personal data is retained for a maximum period of 3 years from the
+          date of the last contact, unless otherwise required by law.
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">6. Data Security</div>
+        <div className="text-ui-textMuted pr-70">
+          BEYOND implements appropriate technical and organizational measures to
+          ensure the security of personal data and to prevent unauthorized
+          access, loss, or disclosure.
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">7. User Rights</div>
+        <div className="text-ui-textMuted pr-70">
+          In accordance with the GDPR, you have the following rights:
+          <div className="my-2">
+            <ul className="list-disc pl-5 marker:text-accent-900 space-y-1">
+              <li>Right of access</li>
+              <li>Right to rectification</li>
+              <li>Right to erasure</li>
+              <li>Right to restriction of processing</li>
+              <li>Right to object</li>
+            </ul>
+          </div>
+          <div>
+            To exercise these rights, you may contact BEYOND at the following
+            address:
+          </div>
+          <div className="font-bold">
+            <Link href="mailto:contact@groupebeyond.com">
+              contact@groupebeyond.com
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">8. Cookies</div>
+        <div className="text-ui-textMuted pr-70 mb-2">
+          The BEYOND website may use cookies that are strictly necessary for its
+          proper functioning or for audience measurement purposes.
+        </div>
+        <div>You can configure your browser to refuse cookies.</div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">9. Changes to the Policy</div>
+        <div className="text-ui-textMuted pr-70">
+          BEYOND reserves the right to modify this privacy policy at any time in
+          order to remain compliant with legal or regulatory developments.
+        </div>
+      </div>
+    </div>
+  );
+};

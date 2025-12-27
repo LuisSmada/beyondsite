@@ -1,0 +1,127 @@
+import Link from "next/link";
+
+export const LegalNoticesEn = () => {
+  return (
+    <div className="min-h-svh w-full bg-ui-bg px-8 md:px-11 pt-25 text-brand-900 2xl:px-81">
+      <div className="text-3xl font-bold mb-8">Legal Notice</div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">1. Website Publisher</div>
+        <div className="text-ui-textMuted pr-70">
+          <div className="flex flex-col gap-2">
+            <div className="font-bold">BEYOND</div>
+            <div>Simplified Joint-Stock Company (SAS)</div>
+          </div>
+
+          <div className="mt-5 flex flex-col gap-2">
+            <div>Share capital: Not defined</div>
+            <div>Registered office: Not defined</div>
+            <div>Company registration: Not defined</div>
+            <div>
+              Email:{" "}
+              <span className="font-bold">
+                <Link href="mailto:contact@groupebeyond.com">
+                  contact@groupebeyond.com
+                </Link>
+              </span>
+            </div>
+            <div>Phone: +33 6 95 67 24 69</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">2. Director of Publication</div>
+        <div className="text-ui-textMuted pr-70">
+          <div>The Director of Publication is:</div>
+          <div className="mt-2 flex flex-col gap-2">
+            <div>Luis Adams AYO (Founder)</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">3. Hosting</div>
+        <div className="text-ui-textMuted pr-70">
+          <div className="flex flex-col gap-2">
+            <div>The website is hosted by:</div>
+          </div>
+
+          <div className="mt-5 flex flex-col gap-2">
+            <div className="font-bold">Hostinger International Ltd</div>
+            <div>61 Lordou Vironos Street</div>
+            <div>6023 Larnaca</div>
+            <div>Cyprus</div>
+            <div>
+              Website:{" "}
+              <span className="font-bold">
+                <a
+                  href="https://www.hostinger.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  www.hostinger.com
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">4. Intellectual Property</div>
+        <div className="text-ui-textMuted pr-70">
+          <div className="flex flex-col gap-2">
+            <div>
+              All elements on the BEYOND website (texts, images, logos,
+              graphics, structure, code) are protected by intellectual property
+              laws.
+            </div>
+            <div>
+              Any reproduction, representation, or use, in whole or in part,
+              without prior written authorization is strictly prohibited.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">5. Liability</div>
+        <div className="text-ui-textMuted pr-70">
+          <div className="flex flex-col gap-2">
+            <div>
+              BEYOND strives to provide accurate and up-to-date information.
+              However, BEYOND cannot be held liable for errors, omissions, or
+              temporary unavailability of the website.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">6. External Links</div>
+        <div className="text-ui-textMuted pr-70">
+          <div className="flex flex-col gap-2">
+            <div>
+              The website may contain links to external websites. BEYOND assumes
+              no responsibility for the content of such third-party websites.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mb-5">
+        <div className="font-bold text-xl mb-3">7. Governing Law</div>
+        <div className="text-ui-textMuted pr-70">
+          <div className="flex flex-col gap-2">
+            <div>This website is governed by French law.</div>
+            <div>
+              In the event of a dispute, the French courts shall have exclusive
+              jurisdiction.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

@@ -30,6 +30,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/[locale]/(site)/(legal)/[slug]/LegalNotices.tsx.old"  ],
   "exclude": ["node_modules"]
 }

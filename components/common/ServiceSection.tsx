@@ -4,44 +4,58 @@ import { SlideFromNearestEdge } from "./SlideFromNearestEdge";
 import { SlideHorizontal } from "./SlideHorizontal";
 import { motion } from "motion/react";
 import { BadgeSection } from "./BadgeSection";
+import { useTranslations } from "next-intl";
+import {
+  BarChart3,
+  Code2,
+  LifeBuoy,
+  LucideProps,
+  RefreshCcw,
+} from "lucide-react";
+import { ForwardRefExoticComponent, RefAttributes } from "react";
 
 interface INavItems {
   title: string;
   href: string;
   description: string;
+  icon: ForwardRefExoticComponent<
+    Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>
+  >;
 }
 
 const SERVICE_ITEMS: INavItems[] = [
   {
-    title: "Développement d’applications sur-mesure",
+    title: "#AppDev",
     href: "/services",
-    description:
-      "Interfaces modernes, API robustes, outils métiers adaptés à vos besoins internes",
+    description: "#AppDevDesc",
+    icon: Code2,
   },
   {
-    title: "Dashboards & reporting",
+    title: "#DashboardReporting",
     href: "/about",
-    description:
-      "Visualisation avancée des données, statistiques, rapports automatisés.",
+    description: "#DashboardReportingDesc",
+    icon: BarChart3,
   },
   {
-    title: "Refonte & optimisation d’applications",
+    title: "#ReDesignOptimisation",
     href: "/contact",
-    description:
-      "Modernisation, correction, optimisation de performances, sécurité.",
+    description: "#ReDesignOptimisationDesc",
+    icon: RefreshCcw,
   },
   {
-    title: "Accompagnement & conseil technique",
+    title: "#TechnicalHelpAdvise",
     href: "/contact",
-    description:
-      "Définition de MVP, cadrage fonctionnel, choix technologiques, coaching CTO.",
+    description: "#TechnicalHelpAdviseDesc",
+    icon: LifeBuoy,
   },
 ];
 
 export const ServiceSection = () => {
+  const t = useTranslations("HomePage");
+
   return (
-    <div className="w-screen h-screen bg-ui-bg flex flex-col pt-8 gap-3 items-center">
-      <BadgeSection>Services</BadgeSection>
+    <div className="w-screen min-h-svh 2xl:min-h-auto xl:h-screen 2xl:h-full bg-ui-bg flex flex-col py-20 gap-3 items-center px-8 md:px-11">
+      <BadgeSection>{t("#Services")}</BadgeSection>
       <motion.div
         initial={{ y: -30, opacity: 0 }}
         whileInView={{
@@ -54,27 +68,34 @@ export const ServiceSection = () => {
         }}
         className="flex flex-col items-center"
       >
-        <div className="font-bold text-4xl mb-2">
-          Qu est ce que vous propose ?
+        <div className="font-bold text-center text-2xl sm:text-3xl md:text-4xl mb-2 text-brand-900">
+          {t("#WhatWePropose")}
         </div>
         <div className="text-base text-ui-textMuted">
-          BEYOND vous propose plusieurs services.
+          {t("#BeyondHasManyServices")}
         </div>
       </motion.div>
-      <div className="flex flex-row justify-center px-[45px] mt-5 gap-5">
-        {SERVICE_ITEMS.map((service, idx) => {
-          const from = idx < 2 ? "left" : "right";
+      <div className="w-full flex items-center justify-center gap-5 mt-5 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-5">
+          {SERVICE_ITEMS.map((service, idx) => {
+            const from = idx < 2 ? "left" : "right";
+            const Icon = service.icon;
 
-          return (
-            <SlideHorizontal key={service.title} from={from} delay={idx * 0.08}>
-              <HomeServiceItem
-                title={service.title}
-                description={service.description}
-                href="/"
-              />
-            </SlideHorizontal>
-          );
-        })}
+            return (
+              <SlideHorizontal
+                key={service.title}
+                from={from}
+                delay={idx * 0.08}
+              >
+                <HomeServiceItem
+                  title={service.title}
+                  description={service.description}
+                  icon={Icon}
+                />
+              </SlideHorizontal>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
